@@ -13,6 +13,7 @@ pwd'''
     stage('Build') {
       steps {
         echo 'Hello World'
+        sh 'echo "Hello"'
       }
     }
 
