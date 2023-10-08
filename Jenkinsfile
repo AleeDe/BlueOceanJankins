@@ -12,7 +12,7 @@ pwd'''
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
             sh 'echo "Testing"'
           }
